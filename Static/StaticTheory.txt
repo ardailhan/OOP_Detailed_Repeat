@@ -1,0 +1,24 @@
+﻿Programlamada Statik Ne Demek ?
+
+-Static yapılar uygulamanın tamamı tarafından erişilebilir yapılardır.
+
+-Normal şartlarda bir türün verisini kullanmak için o türün bir instance'ını üretiriz.
+-Static yapılanmada ise veri, türün instance'ı ile değil bizzat türün kendisiyle ilişkilendirilmesini ifade eder.
+-Static yapıların kullanımı için nesneye ihtiyaç duyulmaması, kodlama sürecinde direkt ilgili türün üzerinden işlem yapılmasını sağlamaktadır. Bu durumda static yapıları, uygulama bazında evrensel veya tekil olarak kullanabilen ve erişilebilen yapılar olarak karşımıza çıkarıyor.
+
+
+Uygulama Bazında Evrensel Nokta 'Static'
+
+-Static, uygulama bazında evrensel çalışmalar yapabilmemizi sağlayan yapıları ifade eden bir kavramdır.
+-Bu kavramı daha net anlayabilmek için RAM'in yapısına tekrar odaklanmamız gerekmektedir.
+--Stack => Local Erişim
+--Heap => Global Erişim
+--Static => Global Erişim
+
+=> Static;
+-Programın çalışma süresi boyunca aynı kalan, uygulama açısından evrensel nokta olan, sabit verilerin, metotların ve sınıf düzeyindeki değişkenlerin(field) bulunabildiği bellek alanıdır.
+-Bu alandaki yapılara ya da verilere ulaşabilmek için bir sınıf örneğinde ihtiyaç duyulmamaktadır, çünkü bu alanda tanımlanan yapılar static yani sabit olarak tanımlanmakta ve her yerden erişilebilir olarak tanımlanmaktadır.
+-Static yapılar, uygulama seviyesinde verileri saklamak için kullanılmaktadırlar!
+-Static yapılarda kalıtım alma durumu yoktur!
+
+
