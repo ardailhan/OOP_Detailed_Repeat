@@ -1,0 +1,13 @@
+﻿***Record Struct Nedir ?***
+
+-Record Struct'ı anlayabilmek için öncelikle Record yapısını hatırlamakta fayda var.
+-Record'lar, verisel olarak taşıdıkları değerleri ve ön planda tutan, değeri değiştirilemeyen ve compile neticesinde IEquatable<T> implemente ederek özünde bir sınıfa dönüşen referans türlü veri yapılarıdır.
+-Record Struct'lar ise Record'un birçok avantajını sağlayan fakat değer türlü olması gibi radikal farkları olan veri yapılarıdır.
+-Bir record struct'ı oluşturmak oldukca basitir;
+
+record struct MyRecordStruct
+{
+
+}
+
+-Record ile record struct arasında mantıken benzerlikler olduğu gibi bazı noktalarda davranışsal farklar söz konusudur.
